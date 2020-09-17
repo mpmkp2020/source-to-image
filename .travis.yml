@@ -15,7 +15,7 @@ script:
   - GOFLAGS="-mod=vendor" make check TESTFLAGS="-p=4" TESTS="''" # empty quotes are because hack/test-go.sh requires 2 args
 
 notifications:
-  irc: "chat.freenode.net#openshift-dev"
+  irc: false
 
 sudo: false
 
